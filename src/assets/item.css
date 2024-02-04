@@ -1,0 +1,27 @@
+.card {
+    width: 18rem;
+    margin: 10px;
+    height: fit-content;
+
+
+}
+
+.Item {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.cardImg {
+    width: 286px;
+    height: 180px;
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}

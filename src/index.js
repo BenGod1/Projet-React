@@ -1,13 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+// import ItemList from './fromagecard';
+// import NavBar from './navbar';
+// import ItemList1 from './cardtest';
+import Background from './background';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <NavBar /> */}
+    <Background />
   </React.StrictMode>
 );
 
